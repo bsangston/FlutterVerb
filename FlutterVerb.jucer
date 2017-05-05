@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="XCENyA" name="FlutterVerb" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.FlutterVerb" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="1" buildAU="1" buildAUv3="0" buildRTAS="0"
+              buildAAX="0" buildStandalone="0" enableIAA="0" pluginName="FlutterVerb"
+              pluginDesc="FlutterVerb" pluginManufacturer="bsang" pluginManufacturerCode="BSS"
+              pluginCode="BSS1" pluginChannelConfigs="{1,1}, {2,2}" pluginIsSynth="0"
+              pluginWantsMidiIn="0" pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0"
+              pluginEditorRequiresKeys="0" pluginAUExportPrefix="FlutterVerbAU"
+              pluginRTASCategory="" aaxIdentifier="com.yourcompany.FlutterVerb"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="5.0.0"
+              companyName="Endgame Audio" companyWebsite="brandonsangston.com">
+  <MAINGROUP id="y5bsb5" name="FlutterVerb">
+    <GROUP id="{BBF69FB6-8285-A88B-A2DC-AAF5DF804ABE}" name="GUI">
+      <FILE id="WHQJPL" name="GUIComponents.cpp" compile="1" resource="0"
+            file="Source/GUIComponents.cpp"/>
+      <FILE id="bxGHCd" name="GUIComponents.h" compile="0" resource="0" file="Source/GUIComponents.h"/>
+    </GROUP>
+    <GROUP id="{7F6C11EA-1B78-F768-56E7-47477E773FD9}" name="Source">
+      <FILE id="QbBL2U" name="Mu45FilterCalc.cpp" compile="1" resource="0"
+            file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/Mu45FilterCalc.cpp"/>
+      <FILE id="aShsBQ" name="Mu45FilterCalc.h" compile="0" resource="0"
+            file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/Mu45FilterCalc.h"/>
+      <FILE id="br4ppK" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp" xcodeResource="0"/>
+      <FILE id="FVMdI5" name="UParam.h" compile="0" resource="0" file="Source/UParam.h"/>
+      <FILE id="kJUeX1" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="ETR9uH" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp" xcodeResource="0"/>
+      <FILE id="VUZ9Qe" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{0019C3D0-FEE0-71E6-AAA1-29D481573786}" name="StkLite">
+      <GROUP id="{80D84BF3-2056-9B24-72B1-0B1442816779}" name="include">
+        <FILE id="hzmo0L" name="BiQuad.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/BiQuad.h"/>
+        <FILE id="OtKn6W" name="Delay.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/Delay.h"/>
+        <FILE id="fsiSm6" name="DelayA.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/DelayA.h"/>
+        <FILE id="c4ngch" name="DelayL.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/DelayL.h"/>
+        <FILE id="U2oquq" name="Filter.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/Filter.h"/>
+        <FILE id="IqpQgq" name="Fir.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/Fir.h"/>
+        <FILE id="CWgbnp" name="FormSwep.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/FormSwep.h"/>
+        <FILE id="qk1NcN" name="Iir.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/Iir.h"/>
+        <FILE id="fVwvtj" name="OnePole.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/OnePole.h"/>
+        <FILE id="ZIiSDT" name="OneZero.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/OneZero.h"/>
+        <FILE id="D6zlv4" name="PoleZero.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/PoleZero.h"/>
+        <FILE id="gEgtfo" name="Stk.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/Stk.h"/>
+        <FILE id="INLENw" name="TapDelay.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/TapDelay.h"/>
+        <FILE id="C7d5uv" name="TwoPole.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/TwoPole.h"/>
+        <FILE id="OqWiYz" name="TwoZero.h" compile="0" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/include/TwoZero.h"/>
+      </GROUP>
+      <GROUP id="{58FD7F9D-A1A6-3944-BC45-8E3BA4A5473D}" name="src">
+        <FILE id="V3Lxlc" name="BiQuad.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/BiQuad.cpp"/>
+        <FILE id="sSMX7C" name="Delay.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/Delay.cpp"/>
+        <FILE id="h74IQy" name="DelayA.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/DelayA.cpp"/>
+        <FILE id="dQEzJY" name="DelayL.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/DelayL.cpp"/>
+        <FILE id="sXjTmV" name="Fir.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/Fir.cpp"/>
+        <FILE id="H19kR2" name="FormSwep.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/FormSwep.cpp"/>
+        <FILE id="H8WdtX" name="Iir.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/Iir.cpp"/>
+        <FILE id="xQyTpy" name="OnePole.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/OnePole.cpp"/>
+        <FILE id="Ezzphr" name="OneZero.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/OneZero.cpp"/>
+        <FILE id="ixrQlz" name="PoleZero.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/PoleZero.cpp"/>
+        <FILE id="j91SD8" name="Stk.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/Stk.cpp"/>
+        <FILE id="GU01oP" name="TapDelay.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/TapDelay.cpp"/>
+        <FILE id="JyVzom" name="TwoPole.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/TwoPole.cpp"/>
+        <FILE id="EqVm8Q" name="TwoZero.cpp" compile="1" resource="0" file="../../Downloads/StarterCode-UParam-STK-Mu45Filter 2/StkLite/src/TwoZero.cpp"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" vst3Folder="" aaxFolder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="FlutterVerb"
+                       cppLanguageStandard="c++11"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="FlutterVerb"
+                       cppLanguageStandard="c++11"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>

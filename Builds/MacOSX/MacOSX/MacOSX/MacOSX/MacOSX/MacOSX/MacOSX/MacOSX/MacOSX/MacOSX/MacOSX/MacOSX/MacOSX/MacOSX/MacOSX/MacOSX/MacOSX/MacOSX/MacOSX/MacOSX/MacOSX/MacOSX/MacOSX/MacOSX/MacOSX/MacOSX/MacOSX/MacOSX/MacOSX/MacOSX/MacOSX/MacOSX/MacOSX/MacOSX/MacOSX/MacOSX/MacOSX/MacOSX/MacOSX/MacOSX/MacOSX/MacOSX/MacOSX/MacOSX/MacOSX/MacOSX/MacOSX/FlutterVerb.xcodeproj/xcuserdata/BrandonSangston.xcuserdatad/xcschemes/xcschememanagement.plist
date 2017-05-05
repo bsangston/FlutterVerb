@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FlutterVerb - AU.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>FlutterVerb - All.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>FlutterVerb - Shared Code.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>FlutterVerb - VST.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>FlutterVerb - VST3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>105113BC3889FCC6B45E2D66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3A394BE76FBC456CAD81568A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6904A10FCC8FDC7F260AB2E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9B43F1EFE9CB1DFB1E945D2D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE9898070B053EE718407132</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
